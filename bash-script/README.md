@@ -1,4 +1,4 @@
-# 🐚 Bash Scripting Learning Path
+# 💻 Bash Scripting Learning Path
 An industry-aligned roadmap designed to master Bash scripting, automation, and system administration.
 
 
