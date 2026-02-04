@@ -2,220 +2,166 @@
 An industry-aligned roadmap designed to master Bash scripting, automation, and system administration.
 
 
-## 🟢 Phase 1: Bash Fundamentals
+## 🟢 Module 1: Introduction to Bash and Shell Fundamentals
 **Goal:** Understand Bash and write your first scripts.
 
-* Introduction to Bash: What is Bash? (Bourne Again SHell)
-* Shell vs Terminal vs Bash: Understanding the differences.
-* Shebang: Using `#!/bin/bash` to define script interpreter.
-* Script Execution: Running scripts with `./script.sh`, `bash script.sh`.
-* Making Scripts Executable: Using `chmod +x script.sh`.
-* Comments: Documenting code with `#`.
-* Output: Using `echo` and `printf`.
-   <!-- * 📂 Mini Project: __Hello World Script with User Input__ -->
+* Understanding Bash, shell, terminal, and command-line interface
+* Environment setup (Linux, macOS, WSL) and shebang (`#!/bin/bash`)
+* Script execution methods (`./script.sh`, `bash script.sh`, `source`) and making scripts executable (`chmod +x`)
+* Essential commands: `echo`, `pwd`, `ls`, `cd`, `mkdir`, `touch`, `rm`, `cp`, `mv`
+* Getting help: `man`, `--help`, `info`, `type`, `which`
 
 
-## 🟡 Phase 2: Variables and Data Handling
+## 🟡 Module 2: Variables and Data Types
 **Goal:** Store and manipulate data in scripts.
 
-* Variable Declaration: Creating and using variables.
-* Local vs Environment Variables: Understanding scope with `export`.
-* Reading Input: Getting user input with `read`.
-* Special Variables: `$0`, `$1-$9`, `$@`, `$#`, `$$`, `$?`.
-* Command Substitution: Using `` `...` `` vs `$()`.
-   <!-- * 📂 Mini Project: __System Information Reporter__ -->
+* Variable declaration, naming conventions, and output (`echo` vs `printf`, comments with `#`)
+* Local vs environment variables (`export`) and reading input (`read` with options)
+* Special variables: `$0`, `$1-$9`, `$@`, `$*`, `$#`, `$$`, `$!`, `$?`, `$_`
+* Command substitution (backticks vs `$()`) and arithmetic expansion (`$((expression))`)
+* Arrays: indexed and associative arrays, readonly variables
 
 
-
-## 🟠 Phase 3: Operators and Conditionals
+## 🟠 Module 3: Operators and Expressions
 **Goal:** Make decisions and perform calculations.
 
-* Arithmetic Operators: `+`, `-`, `*`, `/`, `%` using `let`, `(( ))`, `bc`.
-* Comparison Operators: `-eq`, `-ne`, `-gt`, `-lt`, `==`, `!=`.
-* Logical Operators: `&&`, `||`, `!`.
-* String Operators: `=`, `!=`, `-z`, `-n`.
-* File Test Operators: `-f`, `-d`, `-e`, `-r`, `-w`, `-x`.
-* Conditional Statements: `if`, `else`, `elif`, `case ... esac`.
-* Test Commands: `[ ]` vs `[[ ]]` vs `test`.
-   <!-- * 📂 Mini Project: __File Type Checker and Validator__ -->
+* Arithmetic operations (`let`, `(( ))`, `expr`, `bc`) and operators: `+`, `-`, `*`, `/`, `%`, `++`, `--`, `**`
+* Comparison operators - Numeric: `-eq`, `-ne`, `-gt`, `-ge`, `-lt`, `-le` | String: `==`, `!=`, `<`, `>`, `-z`, `-n`
+* Logical operators: `&&`, `||`, `!` and bitwise operators
+* File test operators: `-e`, `-f`, `-d`, `-L`, `-r`, `-w`, `-x`, `-s`, `-nt`, `-ot`
 
 
+## 🔵 Module 4: Conditional Statements
+**Goal:** Master decision-making in scripts.
 
-## 🔵 Phase 4: Loops and Iteration
+* Basic conditionals: `if`, `elif`, `else` and nested conditionals
+* Test commands: `[ ]` vs `[[ ]]` vs `test`
+* Pattern matching with `case ... esac`
+* Ternary operations and short-circuit evaluation with `&&` and `||`
+
+
+## 🟣 Module 5: Loops
 **Goal:** Automate repetitive tasks.
 
-* `for` Loops: C-style and list-based iteration.
-* `while` Loops: Condition-based looping.
-* `until` Loops: Loop until condition is true.
-* Loop Control: Using `break` and `continue`.
-* Nested Loops: Loops within loops.
-   <!-- * 📂 Mini Project: __Batch File Renamer__ -->
+* `for` loops: list iteration, C-style, brace expansion, `seq`
+* `while` and `until` loops for condition-based iteration
+* Loop control: `break` and `continue`
+* Nested loops and looping through files, directories, arrays, command output
 
 
-
-## 🟣 Phase 5: Functions and Modularity
+## 🟤 Module 6: Functions
 **Goal:** Write reusable and organized code.
 
-* Defining Functions: Creating custom functions.
-* Function Arguments: Using `$1`, `$2`, `$@`, `$#`.
-* Return Values: Returning data and exit status.
-* Local vs Global Variables: Variable scope in functions.
-* Recursive Functions: Functions calling themselves.
-   <!-- * 📂 Mini Project: __Calculator Script with Functions__ -->
+* Defining and calling functions with parameters (`$1`, `$2`, `$@`, `$#`)
+* Return values and exit status handling
+* Variable scope: local vs global variables
+* Recursive functions and function libraries with sourcing
 
 
-
-## 🟤 Phase 6: Command-Line Arguments
+## ⚫ Module 7: Command-Line Arguments
 **Goal:** Make scripts interactive and flexible.
 
-* Script Name: Accessing script name with `$0`.
-* Positional Parameters: Using `$1`, `$2`, etc.
-* All Arguments: Understanding `$@` vs `$*`.
-* Argument Count: Using `$#`.
-* Shifting Arguments: Using `shift` command.
-* Parsing Options: Using `getopts` for flags.
-   <!-- * 📂 Mini Project: __CLI-Based Todo Manager__ -->
+* Positional parameters: `$0`, `$1`, `$2`, etc. and understanding `$@` vs `$*`
+* Argument count (`$#`) and shifting arguments (`shift`)
+* Option parsing with `getopts` and long option parsing
+* Argument validation and usage functions
 
 
-
-## ⚫ Phase 7: Input/Output and Redirection
+## 🔴 Module 8: Input/Output and Redirection
 **Goal:** Control data flow in scripts.
 
-* Standard Streams: stdin, stdout, stderr.
-* Output Redirection: `>`, `>>`, `2>`, `&>`.
-* Input Redirection: `<`, `<<<`.
-* Pipes: Chaining commands with `|`.
-* Here Documents: Multi-line input with `<<`.
-* File Descriptors: Advanced I/O control.
-* `tee` Command: Simultaneous output to file and screen.
-   <!-- * 📂 Mini Project: __Log File Analyzer__ -->
+* Standard streams: stdin (0), stdout (1), stderr (2)
+* Output redirection: `>`, `>>`, `2>`, `&>`, `2>&1` and input redirection: `<`, `<<<`, `<<EOF`
+* Pipes (`|`), named pipes (FIFOs), and file descriptors
+* Special files: `/dev/null`, `/dev/stdin`, `/dev/stdout`, `/dev/stderr` and `tee` command
+* Process substitution: `<()`, `>()`
 
 
+## 🟠 Module 9: String Manipulation
+**Goal:** Master text processing within Bash.
 
-## 🔴 Phase 8: File Operations and String Manipulation
-**Goal:** Master file handling and text processing.
-
-* File Testing: Checking file types with `-f`, `-d`, `-e`, `-r`, `-w`, `-x`.
-* Reading Files: Line-by-line with `while read`.
-* Writing to Files: Creating and modifying files.
-* String Length: Using `${#str}`.
-* Substrings: Extracting with `${str:start:length}`.
-* Pattern Replacement: Using `${str/pattern/replacement}`.
-* Regular Expressions: Pattern matching with `[[ =~ ]]`.
-   <!-- * 📂 Mini Project: __CSV Data Parser and Reporter__ -->
+* String length (`${#string}`) and substrings (`${string:position:length}`)
+* Default values: `${var:-default}`, `${var:=default}`
+* Pattern removal: `${string#pattern}`, `${string##pattern}`, `${string%pattern}`, `${string%%pattern}`
+* Search/replace (`${string/pattern/replacement}`, `${string//pattern/replacement}`) and case conversion (`${string^^}`, `${string,,}`)
+* Regex matching with `[[ =~ ]]`
 
 
-
-## 🟠 Phase 9: Arrays and Advanced Data Structures
-**Goal:** Work with collections of data.
-
-* Declaring Arrays: Indexed and associative arrays.
-* Accessing Elements: Using `${arr[0]}`, `${arr[@]}`.
-* Array Length: Getting size with `${#arr[@]}`.
-* Iterating Arrays: Looping through array elements.
-* Array Operations: Adding, removing, slicing elements.
-   <!-- * 📂 Mini Project: __Student Grade Management System__ -->
-
-
-
-## 🟡 Phase 10: Text Processing Tools
+## 🟡 Module 10: Text Processing Tools
 **Goal:** Master external utilities for text manipulation.
 
-* `grep`: Searching patterns in files.
-* `sed`: Stream editor for text transformation.
-* `awk`: Advanced text processing and reporting.
-* `cut`, `paste`, `sort`, `uniq`: Data manipulation tools.
-* `tr`: Character translation and deletion.
-* `find` and `xargs`: File searching and batch operations.
-   <!-- * 📂 Mini Project: __Server Access Log Analyzer__ -->
+* `grep`: pattern searching with options (`-i`, `-v`, `-r`, `-n`, `-c`) and extended regex
+* `sed`: stream editing for substitution, deletion, in-place editing, and address ranges
+* `awk`: advanced field processing, built-in variables, patterns, and control structures
+* Text manipulation tools: `cut`, `paste`, `sort`, `uniq`, `tr`, `wc`, `head`, `tail`, `column`, `join`
 
 
+## 🔵 Module 11: File and Directory Operations
+**Goal:** Manage files and directories effectively.
 
-## 🔵 Phase 11: Archiving and Compression
-**Goal:** Manage backups and compressed files.
-
-* Creating Archives: Using `tar` command.
-* Compression: `gzip`, `bzip2`, `zip`, `unzip`.
-* Combined Operations: `tar -czf`, `tar -xzf`.
-* Backup Strategies: Full, incremental, and differential backups.
-   <!-- * 📂 Mini Project: __Automated Backup Script__ -->
-
+* File and directory creation, deletion, and manipulation
+* `find` command: search by name, type, size, time, and `-exec` operations
+* Path operations (`basename`, `dirname`, `realpath`) and permissions (`chmod`, `chown`, `chgrp`)
+* Links (`ln` - symbolic and hard), file info (`stat`, `file`), and disk usage (`du`, `df`)
+* Globbing and wildcards (`*`, `?`, `[...]`), extended globbing, and temporary files (`mktemp`)
 
 
-## 🟣 Phase 12: Process and Job Management
+## 🟣 Module 12: Process Management
 **Goal:** Control running processes and background jobs.
 
-* Background Processes: Running with `&`.
-* Job Control: `jobs`, `fg`, `bg` commands.
-* Process Information: Using `ps`, `top`, `htop`, `pgrep`.
-* Killing Processes: `kill`, `killall`, `pkill` with signals.
-* Exit Status: Checking `$?` for success/failure.
-* Signal Handling: Using `trap` for cleanup operations.
-   <!-- * 📂 Mini Project: __Process Monitor and Auto-Restart Script__ -->
+* Job control: foreground/background (`&`), `jobs`, `fg`, `bg`, `disown`, and `nohup`
+* Process information: `ps`, `top`, `htop`, `pgrep`, `pidof`
+* Killing processes: `kill`, `killall`, `pkill` with signals (SIGTERM, SIGKILL, SIGINT, SIGHUP)
+* Exit codes (`$?`, `exit`), process priority (`nice`, `renice`), and subshells (`( )`), command grouping (`{ }`)
 
 
-
-## 🟢 Phase 13: Debugging and Error Handling
+## 🟢 Module 13: Error Handling and Debugging
 **Goal:** Write robust and error-free scripts.
 
-* Debug Mode: Using `bash -x` and `set -x`.
-* Strict Mode: `set -e`, `set -u`, `set -o pipefail`.
-* Error Messages: Creating meaningful error output.
-* Logging: Implementing script logging.
-* Cleanup with `trap`: Handling script interruptions.
-* ShellCheck: Static code analysis for Bash.
-   <!-- * 📂 Mini Project: __Robust Deployment Script with Error Handling__ -->
+* Exit status, error codes, and error handling with `if command; then`, `||`, `&&`
+* Set options for robust scripts: `set -e`, `set -u`, `set -o pipefail`, `set -x` (`set -euo pipefail`)
+* Traps for signal handling: `trap 'commands' SIGNAL` (EXIT, ERR, INT, TERM)
+* Debug mode (`bash -x`, `bash -n`), PS4 variable, verbose mode (`set -v`), and ShellCheck
 
 
+## 🔴 Module 14: Regular Expressions
+**Goal:** Master pattern matching and text searching.
 
-## 🔴 Phase 14: Advanced Bash Features
+* Basic syntax and special characters: `.`, `*`, `^`, `$`, `[]`, `\`
+* Character classes (`[a-z]`, `[0-9]`, `[^...]`) and POSIX classes (`[:alnum:]`, `[:alpha:]`, `[:digit:]`)
+* Quantifiers (`*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) and anchors (`^`, `$`, `\b`)
+* Groups and capturing (`()`, `\1`, `\2`), alternation (`|`)
+* Regex usage with `grep`, `sed`, `awk`, and `[[ =~ ]]`
+
+
+## 🟠 Module 15: Advanced Bash Features
 **Goal:** Unlock powerful scripting techniques.
 
-* Subshells: Using `( )` for isolated execution.
-* Command Grouping: Using `{ }` for grouped commands.
-* Named Pipes (FIFOs): Inter-process communication.
-* Process Substitution: Using `<()` and `>()`.
-* Parallel Execution: Using `xargs -P` and GNU parallel.
-   <!-- * 📂 Mini Project: __Parallel File Processor__ -->
+* Subshells (`( )`), command grouping (`{ }`), and co-processes (`coproc`)
+* Named pipes (`mkfifo`) and process substitution (`<()`, `>()`)
+* Advanced parameter expansion, indirect references (`${!var}`), and array manipulation
+* Interactive features: `select` menus, `dialog`, `whiptail`, and Bash completion
+* Shell configuration: `shopt`, `.bashrc`, `.bash_profile`, `.profile`, and `mapfile`/`readarray`
 
 
-
-## 🟠 Phase 15: Cron Jobs and Task Scheduling
-**Goal:** Automate script execution on schedule.
-
-* Introduction to Cron: Understanding cron daemon.
-* Cron Syntax: Minute, hour, day, month, weekday fields.
-* Creating Cron Jobs: Using `crontab -e`.
-* Common Schedules: Daily, weekly, monthly tasks.
-* Logging Cron Output: Redirecting cron job output.
-* Troubleshooting: Debugging failed cron jobs.
-   <!-- * 📂 Mini Project: __Scheduled System Health Reporter__ -->
-
-
-
-## 🟡 Phase 16: Networking and System Administration
+## 🟡 Module 16: Networking and Remote Operations
 **Goal:** Automate network and system tasks.
 
-* Network Tools: `curl`, `wget`, `ping`, `nc`, `netstat`.
-* SSH Automation: Using `ssh`, `scp`, `rsync` in scripts.
-* System Monitoring: CPU, RAM, disk usage scripts.
-* Disk Management: `df`, `du` for space monitoring.
-* User Management: Creating and managing users/groups.
-* Service Management: Starting, stopping, monitoring services.
-   <!-- * 📂 Mini Project: __Server Health Monitoring Dashboard__ -->
+* Network tools: `curl`, `wget`, `nc` (netcat), `ping`, `traceroute`, `nslookup`, `dig`
+* Network interfaces: `ip`, `ifconfig`
+* SSH automation: `ssh`, `ssh-keygen`, `ssh-copy-id`, `scp`, `rsync`
+* API calls with `curl`, JSON parsing with `jq`, XML parsing
+* Email and FTP automation: `mail`, `sendmail`, FTP
 
 
+## 🔵 Module 17: System Administration and Automation
+**Goal:** Master system administration tasks.
 
-## 🔵 Phase 17: Security Best Practices
-**Goal:** Write secure and safe scripts.
-
-* Input Validation: Sanitizing user input.
-* Command Injection: Preventing security vulnerabilities.
-* Secure Credentials: Handling passwords and API keys.
-* File Permissions: Proper permission management.
-* Quoting: Preventing word splitting and globbing.
-* Principle of Least Privilege: Running with minimum permissions.
-   <!-- * 📂 Mini Project: __Secure File Transfer Script__ -->
+* System monitoring: CPU, memory, disk, and network usage tracking
+* Automated backups: `tar`, `rsync` with incremental backups and rotation strategies
+* Log management: rotation, analysis, and alerts
+* User management (creation, passwords, groups) and package management (`apt`, `yum`, `dnf`)
+* Service management (`systemctl`) and task scheduling: cron jobs (`crontab -e`, `@reboot`, `@daily`), `anacron`, `at`
 
 
 <br>
@@ -227,7 +173,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 
 ---
 
-**Maintained by: [Sablu Chaudhary](https://github.com/sabluchaudhary555)** 🔗 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/sablu-chaudhary555/) | [GitHub](https://github.com/sabluchaudhary555)
+**Maintained by: [Sablu Chaudhary](https://github.com/sabluchaudhary555)** 🔗 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/sablu-chaudhary555/) | [GitHub](https://github.com/sabluchaudhary555) | [SSoft.in](https://ssoft.in/)
 
 ---
 **Made with ❤️ for the Open Source Community**
