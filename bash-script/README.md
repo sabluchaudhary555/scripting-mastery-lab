@@ -10,7 +10,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Script execution methods (`./script.sh`, `bash script.sh`, `source`) and making scripts executable (`chmod +x`)
 * Essential commands: `echo`, `pwd`, `ls`, `cd`, `mkdir`, `touch`, `rm`, `cp`, `mv`
 * Getting help: `man`, `--help`, `info`, `type`, `which`
-  * 📂 Mini Project: [system-info-script](bash-script/module-01/system-info-script.sh)
+  * 📂 Mini Project: [system-info-script](module-01/system-info-script.sh)
 
 
 ## 🟡 Module 2: Variables and Data Types
