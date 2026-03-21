@@ -2,7 +2,7 @@
 An industry-aligned roadmap designed to master Bash scripting, automation, and system administration.
 
 
-## 🟢 Module 1: Introduction to Bash and Shell Fundamentals
+## 🟢 Module 1: [Introduction to Bash and Shell Fundamentals](bash-script/module-01)
 **Goal:** Understand Bash and write your first scripts.
 
 * Understanding Bash, shell, terminal, and command-line interface
@@ -13,7 +13,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
   * 📂 Mini Project: [system-info-script](module-01/system-info-script.sh)
 
 
-## 🟡 Module 2: Variables and Data Types
+## 🟡 Module 2: [Variables and Data Types](bash-script\module-02)
 **Goal:** Store and manipulate data in scripts.
 
 * Variable declaration, naming conventions, and output (`echo` vs `printf`, comments with `#`)
@@ -174,7 +174,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 
 ---
 
-**Maintained by: [Sablu Chaudhary](https://github.com/sabluchaudhary555)** 🔗 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/sablu-chaudhary555/) | [GitHub](https://github.com/sabluchaudhary555) | [SSoft.in](https://ssoft.in/)]
+**Maintained by: [Sablu Chaudhary](https://github.com/sabluchaudhary555)** 🔗 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/sablu-chaudhary555/) | [GitHub](https://github.com/sabluchaudhary555) | [SSoft.in](https://ssoft.in/)
 
 ---
 **Made with ❤️ for the Open Source Community**
