@@ -21,7 +21,9 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Special variables: `$0`, `$1-$9`, `$@`, `$*`, `$#`, `$$`, `$!`, `$?`, `$_`
 * Command substitution (backticks vs `$()`) and arithmetic expansion (`$((expression))`)
 * Arrays: indexed and associative arrays, readonly variables
-
+  * 📂 Mini Project: [user-profile-card](bash-script\module-02\user-profile-card.sh)
+  * 📂 Mini Project: [silent-password-vault](bash-script\module-02\silent-password-vault)
+  
 
 ## 🟠 Module 3: Operators and Expressions
 **Goal:** Make decisions and perform calculations.
