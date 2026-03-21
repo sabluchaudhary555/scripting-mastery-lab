@@ -1,6 +1,5 @@
 # 💻 Bash Scripting Learning Path
-An industry-aligned roadmap designed to master Bash scripting, automation, and system administration.
-
+An industry-aligned roadmap designed to master Bash scripting, automation, and system administration.  
 
 ## 🟢 Module 1: [Introduction to Bash and Shell Fundamentals](bash-script/module-01)
 **Goal:** Understand Bash and write your first scripts.
@@ -21,8 +20,8 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Special variables: `$0`, `$1-$9`, `$@`, `$*`, `$#`, `$$`, `$!`, `$?`, `$_`
 * Command substitution (backticks vs `$()`) and arithmetic expansion (`$((expression))`)
 * Arrays: indexed and associative arrays, readonly variables
-  * 📂 Mini Project: [user-profile-card](bash-script/module-02/user-profile-card.sh)
-  * 📂 Mini Project: [silent-password-vault](bash-script/module-02/silent-password-vault)
+  * 📂 Mini Project: [user-profile-card](module-02/user-profile-card.sh)
+  * 📂 Mini Project: [silent-password-vault](module-02/silent-password-vault.sh)
   
 
 ## 🟠 Module 3: Operators and Expressions
