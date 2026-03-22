@@ -21,7 +21,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Command substitution (backticks vs `$()`) and arithmetic expansion (`$((expression))`)
 * Arrays: indexed and associative arrays, readonly variables
   * 📂 Mini Project: [user-profile-card](module-02/user-profile-card.sh)
-  * 📂 Mini Project: [silent-password-vault](module-02/silent-password-vault.sh)
+  * 📂 Mini Project: [filename-parsar](module-02/filename-parsar.sh)
   
 
 ## 🟠 Module 3: Operators and Expressions
