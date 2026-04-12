@@ -47,7 +47,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Logical operators: `&&` `||` `!`
 * File test operators: `-e` `-f` `-d` `-L` `-r` `-w` `-x` `-s` `-nt` `-ot`
 * Bitwise operators
-
+* 📂 Mini Project: [smart-calculator](module-03/smart-calculator.sh)
 
 ## 🔵 Module 4: Conditional Statements
 **Goal:** Master decision-making in scripts.
