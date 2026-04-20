@@ -98,8 +98,3 @@ else
     echo -e "   💻  Status  : Deep Work Day"
     echo -e "   📅  Plan    : Focus & Execute"
 fi
-
-echo ""
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
-echo -e "${GREEN}✅ Script complete | Module 4 — case/esac${RESET}"
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
