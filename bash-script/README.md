@@ -57,7 +57,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Pattern matching with `case ... esac`
 * Short-circuit evaluation: `&&` and `||`
 * Ternary-style operations
-
+* 📂 Mini Project: [day type detector](module-04/day-type-detector.sh)
 
 ## 🟣 Module 5: Loops
 **Goal:** Automate repetitive tasks.
