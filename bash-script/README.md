@@ -68,6 +68,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Loop control: `break` | `continue`
 * Nested loops
 * Looping over: files | directories | arrays | command output
+* 📂 Mini Project: [bulk-file-renamer](module-05/bulk-file-renamer.sh)
 
 
 ## 🟤 Module 6: Functions
