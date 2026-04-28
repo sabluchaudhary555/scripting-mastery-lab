@@ -80,7 +80,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Local vs global variables (scope)
 * Recursive functions
 * Function libraries and sourcing
-
+* 📂 Mini Project: [task-manager](module-06/task-manager.sh)
 
 ## 🔴 Module 7: Regular Expressions
 **Goal:** Master pattern matching and text searching.
