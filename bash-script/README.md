@@ -93,7 +93,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Alternation: `|`
 * POSIX classes: `[:alnum:]` `[:alpha:]` `[:digit:]`
 * Regex with: `grep` | `sed` | `awk` | `[[ =~ ]]`
-
+* 📂 Mini Project: [password-checker](module-07/password-checker.sh)
 
 ## 🟠 Module 8: Input, Output & Redirection
 **Goal:** Control data flow in scripts.
