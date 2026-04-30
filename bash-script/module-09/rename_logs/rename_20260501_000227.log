@@ -1,0 +1,4 @@
+[2026-05-01 00:02:27] === Session started | dir=. ===
+[2026-05-01 00:05:51] OP: spaces_to_underscores dir=.
+[2026-05-01 00:06:25] OP: spaces_to_underscores dir=.
+[2026-05-01 00:06:49] OP: add_prefix prefix='my' dir=.

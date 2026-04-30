@@ -114,6 +114,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * 📂 Mini Project: [input-validator](module-08/input-validator.sh)
 
 
+
 ## 🟡 Module 9: Text Processing Tools
 **Goal:** Master external utilities for text manipulation.
 
@@ -122,7 +123,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * `awk`   : field processing | built-in variables | patterns | control structures
 * `cut` | `paste` | `sort` | `uniq` | `tr` | `wc` | `head` | `tail`
 * `column` | `join`
-
+* 📂 Mini Project: [bulk-renamer](module-09/bulk-renamer.sh)
 
 ## 🔵 Module 10: File Operations
 **Goal:** Manage files and directories effectively.
