@@ -125,6 +125,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * `column` | `join`
 * 📂 Mini Project: [bulk-renamer](module-09/bulk-renamer.sh)
 
+
 ## 🔵 Module 10: File Operations
 **Goal:** Manage files and directories effectively.
 
@@ -138,7 +139,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Disk usage: `du` | `df`
 * Temporary files: `mktemp`
 * Globbing and wildcards: `*` `?` `[...]` (extended globbing)
-
+* 📂 Mini Project: [zip-archiver](module-10/zip-archiver.sh)
 
 ## 🟣 Module 11: Process Management
 **Goal:** Control running processes and background jobs.
