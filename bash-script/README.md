@@ -111,6 +111,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * `$@` vs `$*` | Argument count: `$#`
 * `shift` | `getopts` | long option parsing
 * Argument validation and usage functions
+* 📂 Mini Project: [input-validator](module-08/input-validator.sh)
 
 
 ## 🟡 Module 9: Text Processing Tools
