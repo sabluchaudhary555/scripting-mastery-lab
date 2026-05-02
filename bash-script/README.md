@@ -157,6 +157,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * 📂 Mini Project: [tmp-cleanup-daemon](module-11/tmp-cleanup-daemon.sh)
 
 
+
 ## 🟢 Module 12: Error Handling & Debugging
 **Goal:** Write robust and error-free scripts.
 
@@ -171,7 +172,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * `PS4` variable
 * ShellCheck
 * Verbose mode: `set -v`
-
+* 📂 Mini Project: [safe-backup](module-12/safe-backup.sh)
 
 ## 🟠 Module 13: Networking & Remote Operations
 **Goal:** Automate network and system tasks.
