@@ -141,6 +141,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Globbing and wildcards: `*` `?` `[...]` (extended globbing)
 * 📂 Mini Project: [zip-archiver](module-10/zip-archiver.sh)
 
+
 ## 🟣 Module 11: Process Management
 **Goal:** Control running processes and background jobs.
 
@@ -153,6 +154,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Process priority: `nice` | `renice`
 * `nohup`
 * Subshells: `( )` | command grouping: `{ }`
+* 📂 Mini Project: [tmp-cleanup-daemon](module-11/tmp-cleanup-daemon.sh)
 
 
 ## 🟢 Module 12: Error Handling & Debugging
