@@ -200,6 +200,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Interactive features: `select` menus | `dialog` | `whiptail` | Bash completion
 * Shell config: `shopt` | `.bashrc` | `.bash_profile` | `.profile`
 * `mapfile` / `readarray`
+* 📂 Mini Project: [devtool](module-14/devtool.sh)
 
 
 ## 🟣 Module 15: System Administration & Automation
