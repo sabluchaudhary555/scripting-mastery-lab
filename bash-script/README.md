@@ -174,6 +174,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * Verbose mode: `set -v`
 * 📂 Mini Project: [safe-backup](module-12/safe-backup.sh)
 
+
 ## 🟠 Module 13: Networking & Remote Operations
 **Goal:** Automate network and system tasks.
 
@@ -186,6 +187,7 @@ An industry-aligned roadmap designed to master Bash scripting, automation, and s
 * XML parsing
 * Email: `mail` | `sendmail`
 * FTP automation
+* 📂 Mini Project: [uptime-monitor](module-13/uptime-monitor.sh)
 
 
 ## 🔵 Module 14: Advanced Bash Features
