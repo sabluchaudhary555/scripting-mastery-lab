@@ -134,10 +134,7 @@ find /backup/monthly/ -mtime +90 -delete
     endscript
 }
 
-# Test rotation config
-logrotate -d /etc/logrotate.d/myapp   # dry run
-logrotate -f /etc/logrotate.d/myapp   # force rotate
-```
+
 
 ### Log Analysis
 ```bash
