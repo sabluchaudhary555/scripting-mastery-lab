@@ -367,25 +367,3 @@ at -c 1          # show job 1 contents
 ```
 
 ---
-
-## 🧠 Quick Reference
-
-| Task | Command |
-|------|---------|
-| CPU usage | `top` / `mpstat 1` |
-| Memory | `free -h` |
-| Disk space | `df -h` |
-| Largest dirs | `du -sh /* \| sort -hr` |
-| Open ports | `ss -tlnp` |
-| Create backup | `tar -czf backup.tar.gz /path` |
-| Sync files | `rsync -av --delete src/ dst/` |
-| Follow logs | `tail -f /var/log/app.log` |
-| Create user | `useradd -m -s /bin/bash user` |
-| Add to group | `usermod -aG docker user` |
-| Install pkg | `apt install -y pkg` |
-| Start service | `systemctl start nginx` |
-| Enable at boot | `systemctl enable nginx` |
-| Service logs | `journalctl -u nginx -f` |
-| Edit crontab | `crontab -e` |
-| One-time job | `echo "cmd" \| at 2:00 AM` |
-| Rotate logs | `logrotate -f /etc/logrotate.d/app` |
