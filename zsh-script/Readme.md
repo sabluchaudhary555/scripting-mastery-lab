@@ -1,4 +1,4 @@
-# Z-sh Scripting Syllabus
+# Zsh Scripting Syllabus
 
 ## Module 1: Introduction & First Script
 - What is Zsh? (Z Shell — extended Bourne shell)
