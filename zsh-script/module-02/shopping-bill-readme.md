@@ -141,13 +141,3 @@ Pure shell arithmetic — no `bc`, no Python, no external tools.
 
 ---
 
-## 👨‍💻 Author
-
-**Sable Chaudhary**  
-B.Tech IT | Purvanchal University  
-Cybersecurity Lead @ GDSC  
-GitHub: [sabluchaudhary555](https://github.com/sabluchaudhary555) | Site: [SSoft.in](https://SSoft.in)
-
----
-
-*Part of `scripting-mastery-lab` · Module 2: Variables & Data Types · Zsh 5.x*
