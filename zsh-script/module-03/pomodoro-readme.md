@@ -15,12 +15,6 @@
 > No apps. No subscriptions. No browser tabs.  
 > Just you, your terminal, and a timer.
 
-<br/>
-
-![Demo](https://raw.githubusercontent.com/yourusername/pomodoro.zsh/main/demo.gif)
-
-> ☝️ Replace this with your own screen recording — try [ttyrec](https://github.com/ovh/ttyrec) + [ttygif](https://github.com/icholy/ttygif) or [asciinema](https://asciinema.org/)
-
 </div>
 
 ---
