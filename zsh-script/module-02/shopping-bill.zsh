@@ -3,7 +3,6 @@
 #  Simple Shopping Bill Maker
 #  Topics: variables, arrays, associative arrays, arithmetic,
 #          read, command substitution, special variables
-#  Author : github.com/sabluchaudhary555
 # ============================================================
 
 setopt NO_UNSET
