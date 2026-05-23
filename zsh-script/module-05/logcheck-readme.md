@@ -15,13 +15,6 @@
 > No `grep | awk | sort | uniq -c` pipelines to remember.  
 > Just run `logcheck.zsh` and get instant insights from any log file.
 
-<br/>
-
-![Demo](https://raw.githubusercontent.com/yourusername/logcheck.zsh/main/demo.gif)
-
-> ☝️ Record your own with [asciinema](https://asciinema.org/) and drop it here as `demo.gif`
-
-</div>
 
 ---
 
@@ -248,16 +241,3 @@ Ideas welcome! Some things that would be great to add:
 5. Open a Pull Request
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-<div align="center">
-
-Made with 📋 and Zsh  
-⭐ Star this repo if it saved you from drowning in logs!
-
-</div>
